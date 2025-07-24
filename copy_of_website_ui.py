@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/159SNGpfKRoHoP0kIDO0iernwiEmr8IqG
 """
 
-pip install streamlit
+#pip install streamlit
 
 # app.py
 
@@ -44,8 +44,7 @@ st.subheader(f"Top Companies in {domain}")
 for company in companies_by_domain[domain]:
     st.markdown(f"✅ {company}")
 
-from google.colab import drive
-drive.mount('/content/drive')
+
 
 
 
