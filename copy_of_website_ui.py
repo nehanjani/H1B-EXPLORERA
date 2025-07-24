@@ -53,8 +53,10 @@ st.title("🌎 H-1B Sponsoring Companies Explorer")
 domain = st.selectbox("Select a Domain", list(companies_by_domain.keys()))
 
 st.subheader(f"Top Companies in {domain}")
-for company in companies_by_domain[domain]:
+for company in Top_sponsor_companies[domain]:
     st.markdown(f"✅ {company}")
+for company in non_competitive_companies[domain]:
+    st.markdown(f"{company}")
 
 
 
