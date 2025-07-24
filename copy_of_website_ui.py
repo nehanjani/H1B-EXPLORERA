@@ -40,6 +40,7 @@ Top_sponsor_companies = {
         "LTI","Kforce","Mphasis","CGI","Mindtree","Virtusa","IBM consulting",
         "Booz Alen","Slalom Consulting","DXC tech"
     ]
+}
 non_competitive_companies ={
     "Less Competitive": [
         "Databricks", "Snowflake", "DataRobot", "Flatiron Health", "Tiger Analytics",
