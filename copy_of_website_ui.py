@@ -13,23 +13,34 @@ Original file is located at
 
 import streamlit as st
 
-companies_by_domain = {
+Top_sponsor_companies = {
     "Technology": [
         "Amazon", "Google", "Microsoft", "Meta", "Apple",
-        "Intel", "Qualcomm", "VMware", "IBM", "Oracle"
+        "Intel", "Qualcomm", "VMware", "IBM", "Oracle","NVIDIA","Salesforce",
+        "Zoom","ServiceNow","Dropbox","Slack","Pinterest","Uber",
+        "Lyft","Airbnb","Stripe","Palantir","DocuSign"
     ],
     "Finance": [
         "JPMorgan", "Goldman Sachs", "Citigroup", "Capital One", "Stripe",
-        "PayPal", "Mastercard", "Visa", "UBS", "Fidelity"
+        "PayPal", "Mastercard", "Visa", "UBS", "Fidelity","BOFA",
+        "Amex","Mastercard","BlackRock","Square","Charles Schwab",
+        "Wells Fargo","Discover","Bloomberg","AIG","Allianz Life",
+        "UBS","Barclays","Deutsche Bank","Susquehanna International Group"
     ],
     "Healthcare": [
         "UnitedHealth", "Pfizer", "IQVIA", "Cerner", "CVS Health",
-        "Moderna", "GE Healthcare", "Roche", "Thermo Fisher", "AbbVie"
+        "Moderna", "GE Healthcare", "Roche", "Thermo Fisher", "AbbVie",
+        "Labcrop","McLesson","Medtronic","Boston Scientific","GE Healthcare",
+        "Siemens Healthcare","Becton Dicknson","Moderna","Gilead Sciences",
+        "Amgen","Eli lilly","Biogen","Novartis","Merck & Co","Walgreens","Anthem"
     ],
     "Consulting": [
         "Cognizant", "TCS", "Accenture", "Infosys", "Capgemini",
-        "EY", "Deloitte", "HCL", "PwC", "Wipro"
-    ],
+        "EY", "Deloitte", "HCL", "PwC", "Wipro","Ernst & Young",
+        "LTI","Kforce","Mphasis","CGI","Mindtree","Virtusa","IBM consulting",
+        "Booz Alen","Slalom Consulting","DXC tech"
+    ]
+non_competitive_companies ={
     "Less Competitive": [
         "Databricks", "Snowflake", "DataRobot", "Flatiron Health", "Tiger Analytics",
         "Zest AI", "Clarify Health", "Health Catalyst", "Amplitude", "Alteryx"
